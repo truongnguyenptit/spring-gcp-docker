@@ -10,4 +10,9 @@ public class HelloController {
     public String index() {
         return "Hello K003!";
     }
+
+    @RequestMapping("/signin")
+    public String sigin() {
+        return "Hello Guys! Feature signin";
+    }
 }
