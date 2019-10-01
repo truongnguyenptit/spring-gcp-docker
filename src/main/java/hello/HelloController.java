@@ -13,6 +13,6 @@ public class HelloController {
 
     @RequestMapping("/signin")
     public String sigin() {
-        return "Hello Guys! Feature signin";
+        return "Hello Guys! Feature Sign In";
     }
 }
